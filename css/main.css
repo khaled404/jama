@@ -1119,6 +1119,9 @@ ul {
       transition: 0.5s;
       -webkit-transform: scale(1.03);
               transform: scale(1.03); }
+      @media (max-width: 480px) {
+        .banner-section .image-box img {
+          height: 140px; } }
     .banner-section .image-box:hover img {
       -webkit-transform: scale(1);
               transform: scale(1); }
