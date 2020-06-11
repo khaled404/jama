@@ -340,7 +340,10 @@ ul {
       .product-conatiner .product-box .content h2 {
         font-size: 20px;
         font-family: "Roboto-Regular";
-        width: 80%; }
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
       .product-conatiner .product-box .content .stars-box i {
         font-size: 14px;
         color: #919296; }
