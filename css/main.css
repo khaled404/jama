@@ -997,6 +997,9 @@ ul {
       width: 100%; }
     .home-header .banners-conatiner .banners-right .swiper-container .swiper-pagination {
       bottom: 101px; }
+      @media (max-width: 480px) {
+        .home-header .banners-conatiner .banners-right .swiper-container .swiper-pagination {
+          bottom: 25%; } }
       .home-header .banners-conatiner .banners-right .swiper-container .swiper-pagination .swiper-pagination-bullet {
         background-color: #d93f87; }
   .home-header .banners-conatiner .banners-right .bottom-banners-container {
