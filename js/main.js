@@ -9,18 +9,21 @@ $(function () {
     $(".sm-menu").toggleClass("active");
     $("body").toggleClass("overflow");
   });
-  var swiper = new Swiper(".swiper-container", {
-    slidesPerView: 1,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+
+  if ($(".home-header").length != 0) {
+    var swiper = new Swiper(".home-header .swiper-container", {
+      slidesPerView: 1,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  }
 
   //footer accordion
   if ($(window).width() < 992) {
