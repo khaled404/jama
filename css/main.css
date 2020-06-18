@@ -544,7 +544,11 @@ ul {
             justify-content: center;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
     .product-box2 .price-box h3 {
       font-size: 20px;
       margin: 0; }
@@ -555,6 +559,9 @@ ul {
         font-family: "Roboto-Regular";
         color: #a4b3b6;
         text-decoration: line-through; }
+    .product-box2 .price-box .min-button {
+      margin-top: 10px;
+      font-size: 13px; }
 
 .min-nav {
   padding-bottom: 30px; }
@@ -1300,6 +1307,36 @@ ul {
 
 .newVilla-section {
   padding: 20px 0; }
+
+.shine .shine-img {
+  position: relative;
+  overflow: hidden; }
+
+.shine .shine-img::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg); }
+
+.shine .shine-img:hover::before {
+  -webkit-animation: shine .75s;
+  animation: shine .75s; }
+
+@-webkit-keyframes shine {
+  100% {
+    left: 125%; } }
+
+@keyframes shine {
+  100% {
+    left: 125%; } }
 
 footer {
   padding: 70px 0 0;
