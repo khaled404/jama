@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" type="img/png" href="images/logo.png">
-    <body class="en">
+    <body class="en overflow">
       <div class="loader">
         <div class="loader-inner ball-grid-beat">
           <div></div>
@@ -27,17 +27,72 @@
       <nav class="sm-menu d-lg-none">
         <ul class="list-unstyled d-flex">
           <li><a href="newVilla.html">New villa</a></li>
-          <li><a href="#">Camera solution</a></li>
+          <li><a href="cameraSolution1.html">Camera solution</a></li>
           <li><a href="#">packages & offers</a></li>
           <li><a href="#">Product</a></li>
         </ul>
       </nav>
+      <div class="overlayCart"></div>
+      <div class="left-cart-container">
+        <div class="header">
+          <h2>Cart</h2>
+          <button class="close cart open-side-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="content">
+          <div class="product-box">
+            <button class="close"><i class="fas fa-times-circle"></i></button>
+            <div class="image-box"><img src="./images/product1.png" alt="product"></div>
+            <div class="description">
+              <h3>15" CCTV Security Monitor, BNC VGA Inputs</h3>
+              <div class="control">
+                <p class="coun">1x</p>
+                <div class="counter">
+                  <button class="plus"><i class="fas fa-plus-circle"></i></button><span>1</span>
+                  <button class="minus"><i class="fas fa-minus-circle"></i></button>
+                </div>
+              </div>
+              <p class="price">411QR</p>
+            </div>
+          </div>
+          <div class="product-box">
+            <button class="close"><i class="fas fa-times-circle"></i></button>
+            <div class="image-box"><img src="./images/product2.jpg" alt="product"></div>
+            <div class="description">
+              <h3>Indoor Dome Camera 1080P</h3>
+              <div class="control">
+                <p class="coun">1x</p>
+                <div class="counter">
+                  <button class="plus"><i class="fas fa-plus-circle"></i></button><span>1</span>
+                  <button class="minus"><i class="fas fa-minus-circle"></i></button>
+                </div>
+              </div>
+              <p class="price">411QR</p>
+            </div>
+          </div>
+          <div class="controls">
+            <div class="box">
+              <h4>sub-total</h4>
+              <p>822</p>
+            </div>
+            <div class="box">
+              <h4>VAT</h4>
+              <p>30</p>
+            </div>
+            <div class="box">
+              <h4>total</h4>
+              <p>852</p>
+            </div>
+          </div>
+          <button class="min-button tow"><span>view cart</span></button>
+          <button class="min-button tow"><span>checkout</span></button>
+        </div>
+      </div>
       <nav class="min-nav">
         <div class="container">
           <div class="top-bar">
             <div class="logo-container d-flex d-lg-none"><a href="index.html"><img class="img-fluid" src="./images/logo.png" alt="logo"></a></div>
             <ul class="list-unstyled">
-              <li class="cart"><a href="#"><span>0</span>
+              <li class="cart open-side-cart"><a href="#"><span>0</span>
                   <svg class="cart-icon" data-name="Group 19" xmlns="http://www.w3.org/2000/svg" width="30" height="28.683" viewbox="0 0 30 28.683">
                     <path id="Path_12" data-name="Path 12" d="M26.717,43.468V50.56a1.639,1.639,0,0,1-1.64,1.639H9.869a2.37,2.37,0,0,1-2.128-1.564L3.2,36.116a1.639,1.639,0,0,0-3.13.978l5.39,17.233a1.64,1.64,0,0,0,1.565,1.15H28.356A1.64,1.64,0,0,0,30,53.838V43.468a1.64,1.64,0,0,0-3.279,0Z" transform="translate(0.004 -34.18)"></path>
                     <circle id="Ellipse_14" data-name="Ellipse 14" cx="2.857" cy="2.857" r="2.857" transform="translate(6.819 22.969)"></circle>
@@ -98,13 +153,14 @@
           <div class="container">
             <ul class="list-unstyled">
               <li><a href="newVilla.html">New villa</a></li>
-              <li><a href="#">Camera solution</a></li>
+              <li><a href="cameraSolution1.html">Camera solution</a></li>
               <li><a href="#">packages & offers</a></li>
               <li><a href="#">Product</a></li>
             </ul>
           </div>
         </div>
       </nav>
+      <div class="container-fluid"><a class="banner-top-main" href="#"><img class="img-fluid" src="./images/banner.png" alt="banner"></a></div>
       <section class="newVilla-section">
         <div class="container">
           <h2 class="head-title">Satellite System</h2>
@@ -116,13 +172,15 @@
                 <div class="stars-box"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i></div>
                 <div class="price-box">
                   <h3 class="price-new">596 QR</h3>
-                  <h3 class="price-old">2010 QR</h3><a class="min-button" href="#"><span>shop now</span>
+                  <h3 class="price-old">2010 QR</h3>
+                  <button class="min-button open-side-cart"><span>shop now</span>
                     <svg class="cart-icon" data-name="Group 19" xmlns="http://www.w3.org/2000/svg" width="30" height="28.683" viewbox="0 0 30 28.683">
                       <path id="Path_12" data-name="Path 12" d="M26.717,43.468V50.56a1.639,1.639,0,0,1-1.64,1.639H9.869a2.37,2.37,0,0,1-2.128-1.564L3.2,36.116a1.639,1.639,0,0,0-3.13.978l5.39,17.233a1.64,1.64,0,0,0,1.565,1.15H28.356A1.64,1.64,0,0,0,30,53.838V43.468a1.64,1.64,0,0,0-3.279,0Z" transform="translate(0.004 -34.18)"></path>
                       <circle id="Ellipse_14" data-name="Ellipse 14" cx="2.857" cy="2.857" r="2.857" transform="translate(6.819 22.969)"></circle>
                       <circle id="Ellipse_15" data-name="Ellipse 15" cx="2.857" cy="2.857" r="2.857" transform="translate(21.864 22.969)"></circle>
                       <path id="Path_13" data-name="Path 13" d="M221.1,31.766h7.649a4.1,4.1,0,0,0,4.1-4.1V20.019a4.1,4.1,0,0,0-4.1-4.1H221.1a4.1,4.1,0,0,0-4.1,4.1v7.649A4.1,4.1,0,0,0,221.1,31.766Z" transform="translate(-208.03 -15.921)"></path>
-                    </svg></a>
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -133,13 +191,15 @@
                 <div class="stars-box"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i></div>
                 <div class="price-box">
                   <h3 class="price-new">596 QR</h3>
-                  <h3 class="price-old">2010 QR</h3><a class="min-button" href="#"><span>shop now</span>
+                  <h3 class="price-old">2010 QR</h3>
+                  <button class="min-button open-side-cart"><span>shop now</span>
                     <svg class="cart-icon" data-name="Group 19" xmlns="http://www.w3.org/2000/svg" width="30" height="28.683" viewbox="0 0 30 28.683">
                       <path id="Path_12" data-name="Path 12" d="M26.717,43.468V50.56a1.639,1.639,0,0,1-1.64,1.639H9.869a2.37,2.37,0,0,1-2.128-1.564L3.2,36.116a1.639,1.639,0,0,0-3.13.978l5.39,17.233a1.64,1.64,0,0,0,1.565,1.15H28.356A1.64,1.64,0,0,0,30,53.838V43.468a1.64,1.64,0,0,0-3.279,0Z" transform="translate(0.004 -34.18)"></path>
                       <circle id="Ellipse_14" data-name="Ellipse 14" cx="2.857" cy="2.857" r="2.857" transform="translate(6.819 22.969)"></circle>
                       <circle id="Ellipse_15" data-name="Ellipse 15" cx="2.857" cy="2.857" r="2.857" transform="translate(21.864 22.969)"></circle>
                       <path id="Path_13" data-name="Path 13" d="M221.1,31.766h7.649a4.1,4.1,0,0,0,4.1-4.1V20.019a4.1,4.1,0,0,0-4.1-4.1H221.1a4.1,4.1,0,0,0-4.1,4.1v7.649A4.1,4.1,0,0,0,221.1,31.766Z" transform="translate(-208.03 -15.921)"></path>
-                    </svg></a>
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -150,13 +210,15 @@
                 <div class="stars-box"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i></div>
                 <div class="price-box">
                   <h3 class="price-new">596 QR</h3>
-                  <h3 class="price-old">2010 QR</h3><a class="min-button" href="#"><span>shop now</span>
+                  <h3 class="price-old">2010 QR</h3>
+                  <button class="min-button open-side-cart"><span>shop now</span>
                     <svg class="cart-icon" data-name="Group 19" xmlns="http://www.w3.org/2000/svg" width="30" height="28.683" viewbox="0 0 30 28.683">
                       <path id="Path_12" data-name="Path 12" d="M26.717,43.468V50.56a1.639,1.639,0,0,1-1.64,1.639H9.869a2.37,2.37,0,0,1-2.128-1.564L3.2,36.116a1.639,1.639,0,0,0-3.13.978l5.39,17.233a1.64,1.64,0,0,0,1.565,1.15H28.356A1.64,1.64,0,0,0,30,53.838V43.468a1.64,1.64,0,0,0-3.279,0Z" transform="translate(0.004 -34.18)"></path>
                       <circle id="Ellipse_14" data-name="Ellipse 14" cx="2.857" cy="2.857" r="2.857" transform="translate(6.819 22.969)"></circle>
                       <circle id="Ellipse_15" data-name="Ellipse 15" cx="2.857" cy="2.857" r="2.857" transform="translate(21.864 22.969)"></circle>
                       <path id="Path_13" data-name="Path 13" d="M221.1,31.766h7.649a4.1,4.1,0,0,0,4.1-4.1V20.019a4.1,4.1,0,0,0-4.1-4.1H221.1a4.1,4.1,0,0,0-4.1,4.1v7.649A4.1,4.1,0,0,0,221.1,31.766Z" transform="translate(-208.03 -15.921)"></path>
-                    </svg></a>
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -167,13 +229,15 @@
                 <div class="stars-box"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i></div>
                 <div class="price-box">
                   <h3 class="price-new">596 QR</h3>
-                  <h3 class="price-old">2010 QR</h3><a class="min-button" href="#"><span>shop now</span>
+                  <h3 class="price-old">2010 QR</h3>
+                  <button class="min-button open-side-cart"><span>shop now</span>
                     <svg class="cart-icon" data-name="Group 19" xmlns="http://www.w3.org/2000/svg" width="30" height="28.683" viewbox="0 0 30 28.683">
                       <path id="Path_12" data-name="Path 12" d="M26.717,43.468V50.56a1.639,1.639,0,0,1-1.64,1.639H9.869a2.37,2.37,0,0,1-2.128-1.564L3.2,36.116a1.639,1.639,0,0,0-3.13.978l5.39,17.233a1.64,1.64,0,0,0,1.565,1.15H28.356A1.64,1.64,0,0,0,30,53.838V43.468a1.64,1.64,0,0,0-3.279,0Z" transform="translate(0.004 -34.18)"></path>
                       <circle id="Ellipse_14" data-name="Ellipse 14" cx="2.857" cy="2.857" r="2.857" transform="translate(6.819 22.969)"></circle>
                       <circle id="Ellipse_15" data-name="Ellipse 15" cx="2.857" cy="2.857" r="2.857" transform="translate(21.864 22.969)"></circle>
                       <path id="Path_13" data-name="Path 13" d="M221.1,31.766h7.649a4.1,4.1,0,0,0,4.1-4.1V20.019a4.1,4.1,0,0,0-4.1-4.1H221.1a4.1,4.1,0,0,0-4.1,4.1v7.649A4.1,4.1,0,0,0,221.1,31.766Z" transform="translate(-208.03 -15.921)"></path>
-                    </svg></a>
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -184,13 +248,15 @@
                 <div class="stars-box"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i></div>
                 <div class="price-box">
                   <h3 class="price-new">596 QR</h3>
-                  <h3 class="price-old">2010 QR</h3><a class="min-button" href="#"><span>shop now</span>
+                  <h3 class="price-old">2010 QR</h3>
+                  <button class="min-button open-side-cart"><span>shop now</span>
                     <svg class="cart-icon" data-name="Group 19" xmlns="http://www.w3.org/2000/svg" width="30" height="28.683" viewbox="0 0 30 28.683">
                       <path id="Path_12" data-name="Path 12" d="M26.717,43.468V50.56a1.639,1.639,0,0,1-1.64,1.639H9.869a2.37,2.37,0,0,1-2.128-1.564L3.2,36.116a1.639,1.639,0,0,0-3.13.978l5.39,17.233a1.64,1.64,0,0,0,1.565,1.15H28.356A1.64,1.64,0,0,0,30,53.838V43.468a1.64,1.64,0,0,0-3.279,0Z" transform="translate(0.004 -34.18)"></path>
                       <circle id="Ellipse_14" data-name="Ellipse 14" cx="2.857" cy="2.857" r="2.857" transform="translate(6.819 22.969)"></circle>
                       <circle id="Ellipse_15" data-name="Ellipse 15" cx="2.857" cy="2.857" r="2.857" transform="translate(21.864 22.969)"></circle>
                       <path id="Path_13" data-name="Path 13" d="M221.1,31.766h7.649a4.1,4.1,0,0,0,4.1-4.1V20.019a4.1,4.1,0,0,0-4.1-4.1H221.1a4.1,4.1,0,0,0-4.1,4.1v7.649A4.1,4.1,0,0,0,221.1,31.766Z" transform="translate(-208.03 -15.921)"></path>
-                    </svg></a>
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -201,13 +267,15 @@
                 <div class="stars-box"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i><i class="fas fa-star gold"></i></div>
                 <div class="price-box">
                   <h3 class="price-new">596 QR</h3>
-                  <h3 class="price-old">2010 QR</h3><a class="min-button" href="#"><span>shop now</span>
+                  <h3 class="price-old">2010 QR</h3>
+                  <button class="min-button open-side-cart"><span>shop now</span>
                     <svg class="cart-icon" data-name="Group 19" xmlns="http://www.w3.org/2000/svg" width="30" height="28.683" viewbox="0 0 30 28.683">
                       <path id="Path_12" data-name="Path 12" d="M26.717,43.468V50.56a1.639,1.639,0,0,1-1.64,1.639H9.869a2.37,2.37,0,0,1-2.128-1.564L3.2,36.116a1.639,1.639,0,0,0-3.13.978l5.39,17.233a1.64,1.64,0,0,0,1.565,1.15H28.356A1.64,1.64,0,0,0,30,53.838V43.468a1.64,1.64,0,0,0-3.279,0Z" transform="translate(0.004 -34.18)"></path>
                       <circle id="Ellipse_14" data-name="Ellipse 14" cx="2.857" cy="2.857" r="2.857" transform="translate(6.819 22.969)"></circle>
                       <circle id="Ellipse_15" data-name="Ellipse 15" cx="2.857" cy="2.857" r="2.857" transform="translate(21.864 22.969)"></circle>
                       <path id="Path_13" data-name="Path 13" d="M221.1,31.766h7.649a4.1,4.1,0,0,0,4.1-4.1V20.019a4.1,4.1,0,0,0-4.1-4.1H221.1a4.1,4.1,0,0,0-4.1,4.1v7.649A4.1,4.1,0,0,0,221.1,31.766Z" transform="translate(-208.03 -15.921)"></path>
-                    </svg></a>
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -249,7 +317,7 @@
                 <button type="button" data-target="#dem2">Customer Service</button>
                 <div class="collapse" id="dem2">
                   <ul class="res">
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Returns</a></li>
                     <li><a href="#">Site Map</a></li>
                   </ul>
@@ -264,7 +332,7 @@
                     <li><a href="#">My Account</a></li>
                     <li><a href="#">Order History</a></li>
                     <li><a href="#">Wish List</a></li>
-                    <li><a href="#">Newsletter    </a></li>
+                    <li><a href="#">Newsletters</a></li>
                   </ul>
                 </div>
               </div>
