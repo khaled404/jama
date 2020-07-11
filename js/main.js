@@ -50,7 +50,6 @@ $(function () {
     $("body").removeClass("overflow");
     $(".loader").fadeOut(400, function () {
       $(this).remove();
-
     });
   });
 });
