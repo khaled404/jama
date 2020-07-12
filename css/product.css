@@ -22,36 +22,37 @@
   margin-bottom: 10px; }
   .filter-container .filter-box .option-box h3 {
     margin-right: auto;
+    margin-left: 20px;
     color: #919294;
     text-transform: capitalize;
     font-size: 20px;
     font-family: "Roboto-Regular"; }
     body.ar .filter-container .filter-box .option-box h3 {
-      margin-right: unset;
+      margin-right: 20px;
       margin-left: auto; }
   .filter-container .filter-box .option-box label {
     margin-bottom: 0;
-    margin-right: 10px;
+    margin-left: 10px;
     cursor: pointer;
     position: relative;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
     color: #919294; }
     body.ar .filter-container .filter-box .option-box label {
-      margin-right: unset;
-      margin-left: 10px; }
+      margin-left: unset;
+      margin-right: 10px; }
     .filter-container .filter-box .option-box label i {
       font-size: 25px;
       -webkit-transition: 0.3s;
       transition: 0.3s;
       opacity: 1;
       -webkit-backface-visibility: hidden;
-              backface-visibility: hidden; }
-    .filter-container .filter-box .option-box label i.fa-check-square {
+              backface-visibility: hidden;
       position: absolute;
       top: 50%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+    .filter-container .filter-box .option-box label i.fa-check-square {
       opacity: 0;
       -webkit-transition: 0.5s;
       transition: 0.5s; }

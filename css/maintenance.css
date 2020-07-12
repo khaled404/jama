@@ -17,7 +17,7 @@
     text-align: center;
     margin-bottom: 20px; }
     .maintenance-section .maintenance-box .image-box {
-      height: 260px;
+      height: 350px;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
@@ -36,30 +36,34 @@
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row; }
+              flex-direction: row;
+      margin-top: 25px;
+      margin-bottom: 6px; }
+      .maintenance-section .maintenance-box .title-box h4 {
+        font-family: "Roboto-Medium";
+        font-size: 20px; }
       .maintenance-section .maintenance-box .title-box label {
-        margin-bottom: 0;
-        margin-right: 10px;
+        margin-left: 20px;
         cursor: pointer;
         position: relative;
-        margin-bottom: 3px;
-        color: #919294; }
+        margin-bottom: 8px;
+        color: #f3a01e; }
         body.ar .maintenance-section .maintenance-box .title-box label {
-          margin-right: unset;
-          margin-left: 10px; }
+          margin-left: unset;
+          margin-right: 20px; }
         .maintenance-section .maintenance-box .title-box label i {
-          font-size: 25px;
+          font-size: 17px;
           -webkit-transition: 0.3s;
           transition: 0.3s;
           opacity: 1;
           -webkit-backface-visibility: hidden;
-                  backface-visibility: hidden; }
-        .maintenance-section .maintenance-box .title-box label i.fa-check-square {
+                  backface-visibility: hidden;
           position: absolute;
           top: 50%;
           left: 50%;
           -webkit-transform: translate(-50%, -50%);
-                  transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%); }
+        .maintenance-section .maintenance-box .title-box label i.fa-check-square {
           opacity: 0;
           -webkit-transition: 0.5s;
           transition: 0.5s; }
@@ -71,5 +75,12 @@
           opacity: 0; }
         .maintenance-section .maintenance-box .title-box input:checked ~ label i.fa-check-square {
           opacity: 1; }
+    .maintenance-section .maintenance-box .maintenance-sup-title {
+      font-family: "Roboto-Medium";
+      font-size: 20px; }
+    .maintenance-section .maintenance-box .price {
+      color: #4399d4;
+      font-family: "Roboto-Bold";
+      font-size: 20px; }
 
 /*# sourceMappingURL=maintenance.css.map */

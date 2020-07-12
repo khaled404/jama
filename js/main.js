@@ -36,6 +36,20 @@ $(function () {
     });
   }
 
+  if ($(".productPage").length != 0) {
+    $(".productPage .owl-carousel").owlCarousel({
+      items: 1,
+      loop: false,
+      center: true,
+      margin: 10,
+      URLhashListener: true,
+      autoplayHoverPause: true,
+      startPosition: "URLHash",
+      rtl: true,
+      loop: true,
+    });
+  }
+
   //footer accordion
   if ($(window).width() < 992) {
     $(".foot-links button").attr("data-toggle", "collapse");
