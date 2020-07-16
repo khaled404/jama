@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Jama</title>
     <link rel="stylesheet" href="css/bootstrap4.min.css"/>
-    <link rel="stylesheet" href="css/all.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="shortcut icon" type="img/png" href="images/logo.png"/>
   </head>
@@ -154,27 +152,30 @@
       </div>
     </nav>
     <div class="container-fluid"><a class="banner-top-main" href="packages&amp;offers.html"><img class="img-fluid" src="./images/banner.png" alt="banner"/></a></div>
-    <section class="form-section">
+    <section class="editProfile-section">
       <div class="container">
-        <form>
-          <div class="form-title">
-            <h2>contact us</h2>
-            <p>We are always happy to contact you</p>
-          </div>
-          <div class="input-container">
-            <input type="text" placeholder="name"/>
-          </div>
-          <div class="input-container">
-            <input type="text" placeholder="phone"/>
-          </div>
-          <div class="input-container">
-            <input type="email" placeholder="email"/>
-          </div>
-          <div class="input-container">
-            <textarea placeholder="text the massage"></textarea>
-          </div>
-          <button class="min-button orange m-auto"><span>SEND</span></button>
-        </form>
+        <div class="form-container">
+          <h2>account profile</h2>
+          <form>
+            <div class="input-box">
+              <label for="name">Name:</label>
+              <input type="text" id="name"/>
+            </div>
+            <div class="input-box">
+              <label for="email">Email:</label>
+              <input type="text" id="email"/>
+            </div>
+            <div class="input-box">
+              <label for="password">Password:</label>
+              <input type="text" id="password"/>
+            </div>
+            <div class="input-box">
+              <label for="phone">Mobile phone number:</label>
+              <input type="text" id="phone"/>
+            </div>
+            <button class="min-button"><span>confirm</span></button>
+          </form>
+        </div>
       </div>
     </section>
     <footer>
@@ -237,6 +238,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
   </body>
-  <script src="http://localhost:35729/livereload.js"></script>
 </html>
