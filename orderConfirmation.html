@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Jama</title>
     <link rel="stylesheet" href="css/bootstrap4.min.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
     <link rel="stylesheet" href="css/all.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="shortcut icon" type="img/png" href="images/logo.png"/>
@@ -154,89 +154,174 @@
       </div>
     </nav>
     <div class="container-fluid"><a class="banner-top-main" href="packages&amp;offers.html"><img class="img-fluid" src="./images/banner.png" alt="banner"/></a></div>
-    <section class="form-section">
-      <div class="container">
-        <form>
-          <div class="form-title">
-            <h2>contact us</h2>
-            <p>We are always happy to contact you</p>
-          </div>
-          <div class="input-container">
-            <input type="text" placeholder="name"/>
-          </div>
-          <div class="input-container">
-            <input type="text" placeholder="phone"/>
-          </div>
-          <div class="input-container">
-            <input type="email" placeholder="email"/>
-          </div>
-          <div class="input-container">
-            <textarea placeholder="text the massage"></textarea>
-          </div>
-          <button class="min-button orange m-auto"><span>SEND</span></button>
-        </form>
-      </div>
-    </section>
-    <footer>
+    <section class="customerInfo-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="foot-links">
-              <button type="button" data-target="#dem">our mission</button>
-              <div class="collapse" id="dem">
-                <p>Jama is an established CCTV equipment distributor in Qatar with shipping locations nationwide. We test every product we sell to make sure it is worthy of our name, as we stand behind all the products we sell. </p>
+          <div class="col-lg-8 col-12">
+            <div class="orderConfirmation-section">
+              <div class="title">
+                <h2 class="sections-title">order confirmation</h2>
+                <div class="left-box">
+                  <h5>order total:<span>1290 qr</span></h5>
+                </div>
+              </div>
+              <div class="information-box mt-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="boxLg">
+                      <div class="title-box">
+                        <h2>Your Information</h2>
+                        <button>Edit</button>
+                      </div>
+                      <h3>jonh Brity</h3>
+                      <p>jonh_brity22@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="boxLg">
+                      <div class="title-box">
+                        <h2>Shipping Address</h2>
+                        <button>Edit</button>
+                      </div>
+                      <h3>jonh Brity</h3>
+                      <p>753 mariners island blvd</p>
+                      <p>Apt 210,</p>
+                      <p>san mateo ca 2331</p>
+                      <p>United States</p>
+                      <p>(314)980-1233</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="boxLg">
+                      <div class="title-box">
+                        <h2>Payment</h2>
+                        <button>Edit</button>
+                      </div>
+                      <div class="imageBox mb-2"><img class="img-fluid" src="./images/visa.png" alt=""/></div>
+                      <p>Visa card ending in 1255</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6">
-            <div class="foot-links">
-              <button type="button" data-target="#dem2">Quick Link</button>
-              <div class="collapse" id="dem2">
-                <ul class="res">
-                  <li><a href="packages&amp;offers.html">packages & offers</a></li>
-                  <li><a href="cameraSolution1.html">Camera solution</a></li>
-                  <li><a href="newVilla.html">New villa</a></li>
-                  <li><a href="about.html">about us</a></li>
-                  <li><a href="contactUs.html">contact us</a></li>
-                </ul>
+          <div class="col-lg-4 col-12">
+            <div class="shippingCart">
+              <h3>shipping cart</h3>
+              <div class="productBox">
+                <div class="imageBox"><img class="img-fluid" src="./images/product4.png" alt="product"/></div>
+                <div class="controls">
+                  <div class="ditelse">
+                    <h5>Outdoor HD Security Camera</h5>
+                    <h6>3,33.251 QR</h6>
+                  </div>
+                  <div class="control">
+                    <p class="coun">1x</p>
+                    <div class="counter">
+                      <button class="plus"><i class="fas fa-plus-circle"></i></button><span>1</span>
+                      <button class="minus"><i class="fas fa-minus-circle"></i></button>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6">
-            <div class="foot-links">
-              <button type="button" data-target="#dem3">My Account</button>
-              <div class="collapse" id="dem3">
-                <ul class="res">
-                  <li><a href="profile.html">my account</a></li>
-                  <li><a href="profile.html">user document</a></li>
-                  <li><a href="profile.html">wish list</a></li>
-                </ul>
+              <div class="productBox">
+                <div class="imageBox"><img class="img-fluid" src="./images/product4.png" alt="product"/></div>
+                <div class="controls">
+                  <div class="ditelse">
+                    <h5>Outdoor HD Security Camera</h5>
+                    <h6>3,33.251 QR</h6>
+                  </div>
+                  <div class="control">
+                    <p class="coun">1x</p>
+                    <div class="counter">
+                      <button class="plus"><i class="fas fa-plus-circle"></i></button><span>1</span>
+                      <button class="minus"><i class="fas fa-minus-circle"></i></button>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-12">
-            <div class="newsletter">
-              <p>Subscribe to our Newsletter</p>
-              <div class="frm">
-                <input type="text" placeholder="Enter your email address"/>
-                <button><i class="fas fa-check"></i></button>
+              <div class="totals">
+                <div class="box">
+                  <h5>items subtotal:</h5>
+                  <p>1290 qr</p>
+                </div>
+                <div class="box">
+                  <h5>deliveryb fee:</h5>
+                  <p>22 qr</p>
+                </div>
+                <div class="box">
+                  <h5>total:</h5>
+                  <p>1312 qr</p>
+                </div>
               </div>
-              <div class="social"><a class="icon-box" href="#"><i class="fab fa-twitter"></i></a><a class="icon-box" href="#"><i class="fas fa-envelope"></i></a><a class="icon-box" href="#"><i class="fab fa-facebook-f"></i></a><a class="icon-box" href="#"><i class="fab fa-instagram"></i></a></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-12">
-        <div class="end">
-          <div class="content">
-            <p>© All Rights Reserved For Jama 2020</p>
+      <button class="min-button"><span>place order</span></button>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="foot-links">
+                <button type="button" data-target="#dem">our mission</button>
+                <div class="collapse" id="dem">
+                  <p>Jama is an established CCTV equipment distributor in Qatar with shipping locations nationwide. We test every product we sell to make sure it is worthy of our name, as we stand behind all the products we sell. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <div class="foot-links">
+                <button type="button" data-target="#dem2">Quick Link</button>
+                <div class="collapse" id="dem2">
+                  <ul class="res">
+                    <li><a href="packages&amp;offers.html">packages & offers</a></li>
+                    <li><a href="cameraSolution1.html">Camera solution</a></li>
+                    <li><a href="newVilla.html">New villa</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="contactUs.html">contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <div class="foot-links">
+                <button type="button" data-target="#dem3">My Account</button>
+                <div class="collapse" id="dem3">
+                  <ul class="res">
+                    <li><a href="profile.html">my account</a></li>
+                    <li><a href="profile.html">user document</a></li>
+                    <li><a href="profile.html">wish list</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="newsletter">
+                <p>Subscribe to our Newsletter</p>
+                <div class="frm">
+                  <input type="text" placeholder="Enter your email address"/>
+                  <button><i class="fas fa-check"></i></button>
+                </div>
+                <div class="social"><a class="icon-box" href="#"><i class="fab fa-twitter"></i></a><a class="icon-box" href="#"><i class="fas fa-envelope"></i></a><a class="icon-box" href="#"><i class="fab fa-facebook-f"></i></a><a class="icon-box" href="#"><i class="fab fa-instagram"></i></a></div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+        <div class="col-sm-12">
+          <div class="end">
+            <div class="content">
+              <p>© All Rights Reserved For Jama 2020</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
   </body>
-  <script src="http://localhost:35729/livereload.js"></script>
 </html>

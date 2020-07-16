@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Jama</title>
     <link rel="stylesheet" href="css/bootstrap4.min.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
     <link rel="stylesheet" href="css/all.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="shortcut icon" type="img/png" href="images/logo.png"/>
@@ -154,27 +154,158 @@
       </div>
     </nav>
     <div class="container-fluid"><a class="banner-top-main" href="packages&amp;offers.html"><img class="img-fluid" src="./images/banner.png" alt="banner"/></a></div>
-    <section class="form-section">
+    <section class="profile-section">
       <div class="container">
-        <form>
-          <div class="form-title">
-            <h2>contact us</h2>
-            <p>We are always happy to contact you</p>
+        <div class="row">
+          <div class="col-lg-3 col-12">
+            <div class="user"><i class="far fa-user"></i>
+              <div class="info">
+                <h3>jonh</h3>
+                <p>jonh_brity22@gmail.com</p>
+              </div>
+            </div>
+            <div class="selectPage">
+              <button class="selectBox control first" type="button" data-filter=".one"> <i class="fas fa-sort-amount-up-alt"></i>
+                <h4>my order</h4>
+              </button>
+              <button class="selectBox control" type="button" data-filter=".two"><i class="fas fa-heart"></i>
+                <h4>wish list</h4>
+              </button>
+              <button class="selectBox control" type="button" data-filter=".three"><i class="fas fa-file"></i>
+                <h4>user document</h4>
+              </button>
+              <button class="selectBox control" type="button" data-filter=".four"><i class="fas fa-user-edit"></i>
+                <h4>account settings</h4>
+              </button>
+            </div>
           </div>
-          <div class="input-container">
-            <input type="text" placeholder="name"/>
+          <div class="col-lg-9 col-12">
+            <div class="sections">
+              <div class="content mix one">
+                <div class="section-header">
+                  <h2 class="section-title">track your order</h2>
+                  <button>Delete all</button>
+                </div>
+                <div class="profile-container">
+                  <div class="order-box">
+                    <div class="image-box"><img class="img-fluid" src="./images/product4.png" alt=""/></div>
+                    <div class="info">
+                      <h3>Outdoor HD Security Camera</h3>
+                      <h4>3,33.251 QR</h4>
+                      <p>HD2065, Indoor Dome Camera 1080P Resolution, 2.8-12mm Manual Zoom Lens 90-20° View, Indoor usem Black Colored Dome, Ceiling mount</p>
+                      <h6>Qty<span>1</span></h6>
+                    </div>
+                  </div>
+                  <div class="order-box">
+                    <div class="image-box"><img class="img-fluid" src="./images/product4.png" alt=""/></div>
+                    <div class="info">
+                      <h3>Outdoor HD Security Camera</h3>
+                      <h4>3,33.251 QR</h4>
+                      <p>HD2065, Indoor Dome Camera 1080P Resolution, 2.8-12mm Manual Zoom Lens 90-20° View, Indoor usem Black Colored Dome, Ceiling mount</p>
+                      <h6>Qty<span>1</span></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content mix two">
+                <div class="section-header">
+                  <h2 class="section-title"></h2>
+                  <button>new wish list</button>
+                </div>
+                <div class="wish-container">
+                  <div class="order-box">
+                    <div class="image-box"><img class="img-fluid" src="./images/product4.png" alt=""/></div>
+                    <div class="info">
+                      <h3>Outdoor HD Security Camera</h3>
+                      <h4>3,33.251 QR</h4>
+                      <button class="open-side-cart">add to cart</button>
+                    </div>
+                    <button class="close"><i class="fas fa-times-circle"></i></button>
+                  </div>
+                  <div class="order-box">
+                    <div class="image-box"><img class="img-fluid" src="./images/product4.png" alt=""/></div>
+                    <div class="info">
+                      <h3>Outdoor HD Security Camera</h3>
+                      <h4>3,33.251 QR</h4>
+                      <button class="open-side-cart">add to cart</button>
+                    </div>
+                    <button class="close"><i class="fas fa-times-circle"></i></button>
+                  </div>
+                  <div class="order-box">
+                    <div class="image-box"><img class="img-fluid" src="./images/product4.png" alt=""/></div>
+                    <div class="info">
+                      <h3>Outdoor HD Security Camera</h3>
+                      <h4>3,33.251 QR</h4>
+                      <button class="open-side-cart">add to cart</button>
+                    </div>
+                    <button class="close"><i class="fas fa-times-circle"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="content mix three">
+                <div class="userDocument">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-6"><a data-fancybox="images" data-caption="My Document Camera Installation Bill" data-width="1248" data-height="1565" href="./images/bill.png">
+                        <div class="userDocument-box shine">
+                          <div class="image-box shine-img"><img class="img-fluid" src="./images/folder.png" alt="folder"/></div>
+                          <h2>Sound system folder</h2>
+                        </div></a></div>
+                    <div class="col-lg-4 col-sm-6"><a data-fancybox="images" data-caption="My Document Camera Installation Bill" data-width="1248" data-height="1565" href="./images/bill.png">
+                        <div class="userDocument-box shine">
+                          <div class="image-box shine-img"><img class="img-fluid" src="./images/folder.png" alt="folder"/></div>
+                          <h2>door phone system folder</h2>
+                        </div></a></div>
+                    <div class="col-lg-4 col-sm-6"><a data-fancybox="images" data-caption="My Document Camera Installation Bill" data-width="1248" data-height="1565" href="./images/bill.png">
+                        <div class="userDocument-box shine">
+                          <div class="image-box shine-img"><img class="img-fluid" src="./images/folder.png" alt="folder"/></div>
+                          <h2>Satellite system folder</h2>
+                        </div></a></div>
+                    <div class="col-lg-4 col-sm-6"><a data-fancybox="images" data-caption="My Document Camera Installation Bill" data-width="1248" data-height="1565" href="./images/bill.png">
+                        <div class="userDocument-box shine">
+                          <div class="image-box shine-img"><img class="img-fluid" src="./images/folder.png" alt="folder"/></div>
+                          <h2>My document</h2>
+                        </div></a></div>
+                    <div class="col-lg-4 col-sm-6"><a data-fancybox="images" data-caption="My Document Camera Installation Bill" data-width="1248" data-height="1565" href="./images/bill.png">
+                        <div class="userDocument-box shine">
+                          <div class="image-box shine-img"><img class="img-fluid" src="./images/folder.png" alt="folder"/></div>
+                          <h2>Sound system folder</h2>
+                        </div></a></div>
+                    <div class="col-lg-4 col-sm-6"><a data-fancybox="images" data-caption="My Document Camera Installation Bill" data-width="1248" data-height="1565" href="./images/bill.png">
+                        <div class="userDocument-box shine">
+                          <div class="image-box shine-img"><img class="img-fluid" src="./images/folder.png" alt="folder"/></div>
+                          <h2>door phone system folder</h2>
+                        </div></a></div>
+                    <div class="col-lg-4 col-sm-6"><a data-fancybox="images" data-caption="My Document Camera Installation Bill" data-width="1248" data-height="1565" href="./images/bill.png">
+                        <div class="userDocument-box shine">
+                          <div class="image-box shine-img"><img class="img-fluid" src="./images/folder.png" alt="folder"/></div>
+                          <h2>Satellite system folder</h2>
+                        </div></a></div>
+                    <div class="col-lg-4 col-sm-6"><a data-fancybox="images" data-caption="My Document Camera Installation Bill" data-width="1248" data-height="1565" href="./images/bill.png">
+                        <div class="userDocument-box shine">
+                          <div class="image-box shine-img"><img class="img-fluid" src="./images/folder.png" alt="folder"/></div>
+                          <h2>My document</h2>
+                        </div></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="content mix four">
+                <div class="accountSettings">
+                  <h3>Account Information</h3>
+                  <p>Jama now share account details. Changes here to your name, email, phone number, or password will also be reflected on Jama.</p>
+                  <h3>Name: </h3>
+                  <p>Jonh </p>
+                  <h3>Email:</h3>
+                  <p>jonh_brity22@gmail.com</p>
+                  <h3>Password:</h3>
+                  <p>********</p>
+                  <h3>Mobile phone number:</h3>
+                  <p>+02----</p>
+                  <button>edit</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="input-container">
-            <input type="text" placeholder="phone"/>
-          </div>
-          <div class="input-container">
-            <input type="email" placeholder="email"/>
-          </div>
-          <div class="input-container">
-            <textarea placeholder="text the massage"></textarea>
-          </div>
-          <button class="min-button orange m-auto"><span>SEND</span></button>
-        </form>
+        </div>
       </div>
     </section>
     <footer>
@@ -236,7 +367,9 @@
     </footer>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
   </body>
-  <script src="http://localhost:35729/livereload.js"></script>
 </html>
