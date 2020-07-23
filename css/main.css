@@ -1004,6 +1004,9 @@ ul {
               -ms-flex-align: center;
                   align-items: center;
           margin-bottom: 20px; } }
+      @media (min-width: 1000px) and (max-width: 1196 px) {
+        .min-nav .top-bar > ul {
+          width: calc(100% / 3); } }
       .min-nav .top-bar > ul li a > i {
         color: #000;
         font-size: 30px;
