@@ -2840,6 +2840,18 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 20px 0; }
+  .products-container .min-button {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    @media (max-width: 480px) {
+      .products-container .min-button {
+        margin: 10px auto; } }
+    .products-container .min-button i {
+      margin-left: 4px; }
+      .products-container .min-button i body.ar {
+        margin-left: unset;
+        margin-right: 4px; }
   .products-container .product {
     display: -webkit-box;
     display: -ms-flexbox;
