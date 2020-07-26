@@ -2615,6 +2615,27 @@ ul {
 
 .newVilla-section {
   padding: 20px 0; }
+  .newVilla-section .topTitle {
+    margin-bottom: 40px; }
+    @media (max-width: 480px) {
+      .newVilla-section .topTitle {
+        text-align: center; } }
+    .newVilla-section .topTitle p {
+      width: 80%;
+      color: #707070; }
+      @media (max-width: 480px) {
+        .newVilla-section .topTitle p {
+          width: 100%; } }
+    .newVilla-section .topTitle .min-button {
+      width: 200px; }
+      @media (max-width: 480px) {
+        .newVilla-section .topTitle .min-button {
+          margin: auto; } }
+      .newVilla-section .topTitle .min-button i {
+        margin-left: 4px; }
+        .newVilla-section .topTitle .min-button i body.ar {
+          margin-left: unset;
+          margin-right: 4px; }
 
 .camera-solution-section {
   padding: 20px 0; }
@@ -2714,6 +2735,20 @@ ul {
         color: #707070;
         margin-top: 16px;
         width: 50%; }
+    .camera-solution-section .content .content-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
     .camera-solution-section .content .title-bottom h4 {
       margin-top: 30px;
       font-family: "Roboto-Medium";
@@ -2732,6 +2767,10 @@ ul {
         border-radius: 40px; }
     .camera-solution-section .content .description {
       text-align: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -2744,6 +2783,17 @@ ul {
       width: 100%;
       margin-bottom: 20px;
       position: relative; }
+      .camera-solution-section .content .description .min-button {
+        margin-top: 10px;
+        font-size: 16px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .camera-solution-section .content .description .min-button i {
+          margin-left: 4px; }
+          .camera-solution-section .content .description .min-button i body.ar {
+            margin-left: unset;
+            margin-right: 4px; }
       .camera-solution-section .content .description h4 {
         margin-bottom: 0; }
       .camera-solution-section .content .description label {
@@ -2915,6 +2965,46 @@ ul {
         color: #000; }
         .installing-cameras ul li a:hover {
           color: #f3a01e; }
+  .installing-cameras .installing-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px; }
+    .installing-cameras .installing-container .image-box {
+      height: 350px;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .installing-cameras .installing-container .image-box img {
+        -o-object-fit: cover;
+           object-fit: cover;
+        height: 100%;
+        width: 100%; }
+    .installing-cameras .installing-container h4 {
+      font-family: "Roboto-Medium";
+      font-size: 20px;
+      color: #000;
+      text-transform: capitalize;
+      margin-top: 10px; }
+    .installing-cameras .installing-container .price {
+      color: #4399d4;
+      font-family: "Roboto-Bold";
+      font-size: 20px; }
   .installing-cameras .cost {
     margin-top: 25px;
     font-size: 20px;
